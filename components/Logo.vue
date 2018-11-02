@@ -1,9 +1,7 @@
 <template>
   <div class="NuxtLogo">
-    <div class="Triangle Triangle--two"/>
-    <div class="Triangle Triangle--one"/>
-    <div class="Triangle Triangle--three"/>
-    <div class="Triangle Triangle--four"/>
+  <img  src="https://uploads.codesandbox.io/uploads/user/4f8528cb-ded4-4626-bbd0-971ae3c98c8d/op2g-nuxt-uikit.png"/>
+
   </div>
 </template>
 
@@ -13,7 +11,7 @@
   position: relative;
   overflow: hidden;
   height: 180px;
-  width: 245px;
+  width: 295px;
 }
 
 .Triangle {
