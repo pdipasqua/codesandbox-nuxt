@@ -1,4 +1,4 @@
-# codesandbox-nuxt
+# nuxt2-uikit
 
 > Nuxt starter for CodeSandBox with Uikit
 
