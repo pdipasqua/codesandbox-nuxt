@@ -2,19 +2,26 @@
   <section>
     <div>
       <logo/>
-      <h1 class="title">NUXT</h1>
-      <h2 class="subtitle">
-        Starter for CodeSandBox
-      </h2>
-      <div class="links">
+      <h1 class="subtitle">Nuxt + UIKit</h1>
+      <h1 class="uk-heading-line uk-text-center"><span>Simple example of integration with UIKit</span></h1>
+        
+      <div class="links" uk-margin>
         <a
           href="https://nuxtjs.org/"
           target="_blank"
-          class="button--green">Documentation <icon-link/></a>
+          class="uk-button uk-button-primary">Nuxt Docs</a>
+        <a
+          href="https://getuikit.com/docs/introduction"
+          target="_blank"
+          class="uk-button uk-button-secondary">UIKit Docs</a>
         <nuxt-link
-          to="/about"
-          class="button--grey">About</nuxt-link>
+        class="uk-button uk-button-default"
+        title="UIkit tooltip" uk-tooltip
+        to="/about"
+        >This is UIKit button, CLICK ME!</nuxt-link>
+            
       </div>
+ 
     </div>
   </section>
 </template>
@@ -36,7 +43,7 @@ export default {
   font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
     'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   display: block;
-  font-weight: 400;
+  font-weight: 400; 
   font-size: 100px;
   color: #526488;
   letter-spacing: 1px;

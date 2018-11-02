@@ -1,7 +1,7 @@
-import pkg from './package.json'
+import pkg from "./package.json";
 
 export default {
-  mode: 'universal',
+  mode: "universal",
 
   /*
   ** Headers of the page
@@ -36,7 +36,8 @@ export default {
   */
   modules: [
     // Doc: https://github.com/nuxt-community/axios-module#usage
-    "@nuxtjs/axios"
+    "@nuxtjs/axios",
+    "~/modules/uikit"
   ],
   /*
   ** Axios module configuration
